@@ -355,9 +355,9 @@ nav .right a span{
 
 
     /*Section1: hero*/
+
     .herosection{
-        padding 0 10px;
-        font-size: 30px;
+        padding: 20px;
     }
 
     .herosection .text h2{
@@ -369,8 +369,12 @@ nav .right a span{
     }
 
     .herosection .links {
-        font-size: 16px;
+        font-size: 15px;
         flex-direction: column;
+    }
+
+    .herosection .headshot{
+        padding: 0px;
     }
 
     /*Section 2: Skills*/
@@ -381,6 +385,7 @@ nav .right a span{
 
     .skillssection .cells .cell span{
         font-size: 16px;
+        text-align: left;
     }
 
     .skillssection .text{
@@ -394,7 +399,22 @@ nav .right a span{
         padding: 0 20px;
     }
 
+
+/*Certifications 3*/
+
     .certifications-section{
         text-align: left;
+        padding: 15px;
+    }
+    .certifications-section .text{
+        padding: 10px;
+    }
+
+    .certifications-section h2{
+        padding: 10px;
+    }
+
+    .certifications-section .cell{
+        padding-left: 10px;
     }
 }    
