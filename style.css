@@ -320,6 +320,10 @@ nav .right a span{
         flex-direction: column;
     }
 
+    .skillssection{
+        padding: 0 20px;
+    }
+
     .skillssection .cells .cell span{
         font-size: 16px;
     }
@@ -327,6 +331,7 @@ nav .right a span{
     .skillssection .text{
         padding: 0 20px;
     }
+
 }
 @media (max-width: 600px){
     /* Navbar */
@@ -351,7 +356,7 @@ nav .right a span{
 
     /*Section1: hero*/
     .herosection{
-        padding 0 20px;
+        padding 0 10px;
         font-size: 30px;
     }
 
@@ -371,8 +376,7 @@ nav .right a span{
     /*Section 2: Skills*/
 
     .skillssection{
-        padding: 0 20px;
-        flex-direction: column;
+        padding: 0 10px;
     }
 
     .skillssection .cells .cell span{
@@ -380,7 +384,7 @@ nav .right a span{
     }
 
     .skillssection .text{
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
 
